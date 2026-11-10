@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest==9.2.0
+# Screenshot capture for the Windows desktop verification script only.
+Pillow==12.3.0

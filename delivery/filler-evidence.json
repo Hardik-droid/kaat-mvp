@@ -1,0 +1,524 @@
+{
+  "source": "C:\\Users\\Asus\\Desktop\\kaat-mvp\\kaat-mvp\\test_output\\filler_real\\human_interview_ums.mp4",
+  "approval": "Automated test approval of ONE candidate in public human um compilation; not human review or general accuracy proof.",
+  "source_sha256_before": "8f33e96f91f636baf4c3d9462b32ef42571b41509ec5c13d3e3b64e7d7412f8c",
+  "primary_voice_provider": "Gnani unchanged",
+  "word_timing_provider": "local faster-whisper base, estimated",
+  "inspect": {
+    "ok": true,
+    "tool": "video.inspect",
+    "data": {
+      "source": "C:\\Users\\Asus\\Desktop\\kaat-mvp\\kaat-mvp\\test_output\\filler_real\\human_interview_ums.mp4",
+      "duration_seconds": 12.0,
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "profile": "High",
+          "codec_type": "video",
+          "codec_tag_string": "avc1",
+          "codec_tag": "0x31637661",
+          "mime_codec_string": "avc1.64000c",
+          "width": 320,
+          "height": 240,
+          "coded_width": 320,
+          "coded_height": 240,
+          "has_b_frames": 2,
+          "sample_aspect_ratio": "1:1",
+          "display_aspect_ratio": "4:3",
+          "pix_fmt": "yuv420p",
+          "level": 12,
+          "chroma_location": "left",
+          "field_order": "progressive",
+          "is_avc": "true",
+          "nal_length_size": "4",
+          "id": "0x1",
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "time_base": "1/10240",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 122880,
+          "duration": "12.000000",
+          "bit_rate": "1828",
+          "bits_per_raw_sample": "8",
+          "nb_frames": "120",
+          "extradata_size": 46,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "VideoHandler",
+            "encoder": "Lavc63.1.102 libx264"
+          }
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_long_name": "AAC (Advanced Audio Coding)",
+          "profile": "LC",
+          "codec_type": "audio",
+          "codec_tag_string": "mp4a",
+          "codec_tag": "0x6134706d",
+          "mime_codec_string": "mp4a.40.2",
+          "sample_fmt": "fltp",
+          "sample_rate": "48000",
+          "channels": 1,
+          "channel_layout": "mono",
+          "bits_per_sample": 0,
+          "initial_padding": 1024,
+          "id": "0x2",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "time_base": "1/48000",
+          "start_pts": 0,
+          "start_time": "0.000000",
+          "duration_ts": 576000,
+          "duration": "12.000000",
+          "bit_rate": "69849",
+          "nb_frames": "564",
+          "extradata_size": 5,
+          "disposition": {
+            "default": 1,
+            "dub": 0,
+            "original": 0,
+            "comment": 0,
+            "lyrics": 0,
+            "karaoke": 0,
+            "forced": 0,
+            "hearing_impaired": 0,
+            "visual_impaired": 0,
+            "clean_effects": 0,
+            "attached_pic": 0,
+            "timed_thumbnails": 0,
+            "non_diegetic": 0,
+            "captions": 0,
+            "descriptions": 0,
+            "metadata": 0,
+            "dependent": 0,
+            "still_image": 0,
+            "multilayer": 0
+          },
+          "tags": {
+            "language": "und",
+            "handler_name": "SoundHandler"
+          }
+        }
+      ],
+      "start_time": 0.0,
+      "has_audio": true,
+      "size_bytes": 114677
+    },
+    "status": "success",
+    "verified": true
+  },
+  "detection": {
+    "ok": true,
+    "tool": "video.detect_fillers",
+    "data": {
+      "cuts": [
+        {
+          "start": 4.82,
+          "end": 5.38,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.81. Preview before approval.",
+          "status": "suggested",
+          "id": "20a61b3ed8c04d419acf35ff971d0c55"
+        },
+        {
+          "start": 5.42,
+          "end": 6.5,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.85. Preview before approval.",
+          "status": "suggested",
+          "id": "2ad3babf460045eaa815edf1fcd699e5"
+        },
+        {
+          "start": 6.54,
+          "end": 6.66,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.89. Preview before approval.",
+          "status": "suggested",
+          "id": "0677e6c112154ce6935049d28d32d9ce"
+        },
+        {
+          "start": 6.7,
+          "end": 7.58,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.92. Preview before approval.",
+          "status": "suggested",
+          "id": "71ff6c27f081457c9b332008a6e1124f"
+        },
+        {
+          "start": 7.62,
+          "end": 8.36,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.94. Preview before approval.",
+          "status": "suggested",
+          "id": "4fd24346fee248bab7e934052ff43e28"
+        },
+        {
+          "start": 8.4,
+          "end": 8.94,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.94. Preview before approval.",
+          "status": "suggested",
+          "id": "30ee4e41e41345afafa12b17e2246f1b"
+        },
+        {
+          "start": 8.98,
+          "end": 9.5,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.94. Preview before approval.",
+          "status": "suggested",
+          "id": "2fd184ca101740a3acb22b4dcc8aceae"
+        },
+        {
+          "start": 9.54,
+          "end": 10.24,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.93. Preview before approval.",
+          "status": "suggested",
+          "id": "a583637c68d848fba88a22c21adaa8c6"
+        },
+        {
+          "start": 10.28,
+          "end": 10.88,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.91. Preview before approval.",
+          "status": "suggested",
+          "id": "82e035feded74f6791d88815262c82a2"
+        },
+        {
+          "start": 10.92,
+          "end": 11.58,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.90. Preview before approval.",
+          "status": "suggested",
+          "id": "0d8fadf8cc3148f38634b90e766e5092"
+        },
+        {
+          "start": 11.62,
+          "end": 11.8,
+          "reason": "filler_word",
+          "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.89. Preview before approval.",
+          "status": "suggested",
+          "id": "21f115421d6144d8ba6e8bbc3812a533"
+        }
+      ],
+      "words": [
+        {
+          "word": " for",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.31212952733039856
+        },
+        {
+          "word": " um",
+          "start": 0.36,
+          "end": 1.42,
+          "probability": 0.15399740636348724
+        },
+        {
+          "word": " um",
+          "start": 1.42,
+          "end": 2.82,
+          "probability": 0.5094872117042542
+        },
+        {
+          "word": " um",
+          "start": 2.82,
+          "end": 4.8,
+          "probability": 0.7852110266685486
+        },
+        {
+          "word": " um",
+          "start": 4.8,
+          "end": 5.4,
+          "probability": 0.8054506778717041
+        },
+        {
+          "word": " um",
+          "start": 5.4,
+          "end": 6.52,
+          "probability": 0.8507029414176941
+        },
+        {
+          "word": " um",
+          "start": 6.52,
+          "end": 6.68,
+          "probability": 0.8884779214859009
+        },
+        {
+          "word": " um",
+          "start": 6.68,
+          "end": 7.6,
+          "probability": 0.9193264245986938
+        },
+        {
+          "word": " um",
+          "start": 7.6,
+          "end": 8.38,
+          "probability": 0.9418281316757202
+        },
+        {
+          "word": " um",
+          "start": 8.38,
+          "end": 8.96,
+          "probability": 0.9413114190101624
+        },
+        {
+          "word": " um",
+          "start": 8.96,
+          "end": 9.52,
+          "probability": 0.9356204271316528
+        },
+        {
+          "word": " um",
+          "start": 9.52,
+          "end": 10.26,
+          "probability": 0.9264130592346191
+        },
+        {
+          "word": " um",
+          "start": 10.26,
+          "end": 10.9,
+          "probability": 0.9118285179138184
+        },
+        {
+          "word": " um",
+          "start": 10.9,
+          "end": 11.6,
+          "probability": 0.9006935954093933
+        },
+        {
+          "word": " um",
+          "start": 11.6,
+          "end": 11.82,
+          "probability": 0.8861202597618103
+        },
+        {
+          "word": " um",
+          "start": 11.82,
+          "end": 11.84,
+          "probability": 0.8674607276916504
+        },
+        {
+          "word": " um",
+          "start": 11.84,
+          "end": 11.86,
+          "probability": 0.9807444214820862
+        },
+        {
+          "word": " um",
+          "start": 11.86,
+          "end": 11.88,
+          "probability": 0.9826517105102539
+        },
+        {
+          "word": " um",
+          "start": 11.88,
+          "end": 11.9,
+          "probability": 0.9849148988723755
+        },
+        {
+          "word": " um",
+          "start": 11.9,
+          "end": 11.98,
+          "probability": 0.9877061247825623
+        }
+      ],
+      "text": "for um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um um",
+      "provider": "local-faster-whisper",
+      "model": "base",
+      "language": "en",
+      "timing": "model_estimated_words",
+      "requires_review": true,
+      "analysis_completed": true,
+      "message": "11 possible filler word(s) suggested for review. Local Whisper timings are approximate; inspect each cut before approval. Zero suggestions does not prove the recording contains no fillers."
+    },
+    "status": "success",
+    "verified": true
+  },
+  "approved_candidate": {
+    "start": 4.82,
+    "end": 5.38,
+    "reason": "filler_word",
+    "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.81. Preview before approval.",
+    "status": "suggested",
+    "id": "20a61b3ed8c04d419acf35ff971d0c55"
+  },
+  "approval_result": {
+    "ok": true,
+    "tool": "video.approve_cut",
+    "data": {
+      "start": 4.82,
+      "end": 5.38,
+      "reason": "filler_word",
+      "detail": "Possible filler 'um'; local Whisper word estimate, model probability 0.81. Preview before approval.",
+      "status": "approved",
+      "id": "20a61b3ed8c04d419acf35ff971d0c55"
+    },
+    "status": "success",
+    "verified": true
+  },
+  "export": {
+    "ok": true,
+    "tool": "video.export",
+    "data": {
+      "output": "C:\\Users\\Asus\\Desktop\\kaat-mvp\\kaat-mvp\\test_output\\filler_real\\human_interview_one_filler_edited.mp4",
+      "edl": "C:\\Users\\Asus\\Desktop\\kaat-mvp\\kaat-mvp\\test_output\\filler_real\\human_interview_one_filler_edited.kaat-edl.json",
+      "subtitles": null,
+      "original_duration": 12.0,
+      "edited_duration": 11.44,
+      "source_untouched": true,
+      "caption_source": null
+    },
+    "status": "success",
+    "verified": true
+  },
+  "output_info": {
+    "source": "C:\\Users\\Asus\\Desktop\\kaat-mvp\\kaat-mvp\\test_output\\filler_real\\human_interview_one_filler_edited.mp4",
+    "duration_seconds": 11.44,
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.64000c",
+        "width": 320,
+        "height": 240,
+        "coded_width": 320,
+        "coded_height": 240,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "4:3",
+        "pix_fmt": "yuv420p",
+        "level": 12,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "50/1",
+        "avg_frame_rate": "235520/23429",
+        "time_base": "1/10240",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 117145,
+        "duration": "11.439941",
+        "bit_rate": "1764",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "115",
+        "extradata_size": 44,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc63.1.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 1024,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 549120,
+        "duration": "11.440000",
+        "bit_rate": "132469",
+        "nb_frames": "538",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "start_time": 0.0,
+    "has_audio": true,
+    "size_bytes": 199065
+  },
+  "source_sha256_after": "8f33e96f91f636baf4c3d9462b32ef42571b41509ec5c13d3e3b64e7d7412f8c",
+  "decoded_audio_video": true
+}

@@ -1,0 +1,33 @@
+{
+  "demo_duration_seconds": 78.933333,
+  "demo_full_decode": true,
+  "source_duration_seconds": 25.025,
+  "edited_duration_seconds": 22.185,
+  "source_sha256": "b8181ca05b9a5d335a4fe9ee5000066fb6ec5c9649b10334ddb5d4ea047c0bcd",
+  "source_unchanged": true,
+  "filler_suggestions": 0,
+  "microphone_recorded": false,
+  "input_method": "Actual Windows mouse and typed commands",
+  "audio_note": "Screen recording is silent. Source and edited samples retain actual public human speech.",
+  "verified_operations": [
+    "Real source selection",
+    "Local filler analysis (zero proposals for this sample)",
+    "FFmpeg long-pause detection",
+    "Explicit approval",
+    "Undo",
+    "Fresh MP4 export",
+    "Full output audio/video decode",
+    "Original source hash unchanged"
+  ],
+  "actual_playback": [
+    {
+      "actual_playback": "C:\\Users\\Asus\\Desktop\\kaat-mvp\\kaat-mvp\\test_output\\practical_speech\\human_hinglish_with_pause.mp4",
+      "decoded_frames": 120
+    },
+    {
+      "actual_playback": "C:\\Users\\Asus\\Desktop\\kaat-mvp\\kaat-mvp\\test_output\\demo_capture_run3\\KAAT-real-edited-copy.mp4",
+      "decoded_frames": 135
+    }
+  ],
+  "report": "test_output/demo_capture_run3/report.json"
+}
